@@ -1,0 +1,38 @@
+Criterios de Evaluación 
+Codifica instrucciones en JavaScript que se encarguen de modificar el estado del documento HTML (DOM), en base a problemática presentada.
+Codifica instrucciones en JavaScript que permitan validar y procesar formularios HTML, en base a la problemática presentada.
+Desarrolla aplicación CRUD utilizando arreglos y objetos con JavaScript, en base a problemática presentada
+Justificando las decisiones frente  a dilemas éticos  según los códigos y normas que rigen su actuar académico y profesional.
+Objetivo 
+Crear una aplicación web de una sola página (SPA) que permita desarrollar interacción con el DOM del documento HTML, utilizando sentencias Javascript, para generar una interacción tipo "mockup". Para ello, debe utilizar: 
+
+Un estilo apropiado para la SPA a desarrollar, acorde a las evaluaciones anteriores (CSS).
+Una estructura de página que cumpla con los requerimientos planteados en el problema.
+El uso de script Javascript para la realización de las operaciones dinámicas y la interacción con el DOM del documento HTML.
+La organización de la solución en carpetas, tal como se ha solicitado anteriormente. 
+La utilización de GitHub para la publicación de la solución, a través del uso Git para la carga de éste en su repositorio del curso. 
+Problema 
+Ahora, "INACAPLudi" ha decidido seguir con la implementación del canal digital para sus asociados. Es por eso que el siguiente paso es confeccionar un marketplace para la Ludoteca, en donde pretende publicar todos los juegos, libros y manuales disponibles físicamente en cada una de las sedes de INACAP.
+
+Para ello, se le ha pedido que confeccione un "mockup" es decir, una página funcional, aún sin conexión a base de datos, que permita mostrar el funcionamiento de este marketplace. Esta página debe permitir realizar las siguientes acciones:
+
+Identificarse como socio. En este punto solo se solicita que se permita "almacenar" un nickname del usuario conectado, a través de un formulario que debe estar en la parte superior y que debería mostrarse si el usuario no ha ingresado nada o mostrar el texto "Bienvenido nickname" en caso contrario. Debe tener un botón para desconectarse cuando se haya conectado e ingresar otro "nickname".
+Mostrar el catálogo de productos. En este punto, se solicita que se presente, a través de una vista apropiada (a elección del desarrollador) de una lista de productos que posee la Ludoteca. La lista es entregada en formato Javascript, en un archivo catalogo.js y se adjuntan también las imágenes de cada producto a mostrar. Esta lista es inicial, por lo cual usted podrá incorporar todos los productos que desee.
+Crear un carrito. En este punto, el más importante, es permitir al usuario conectado agregar productos del catálogo al carrito de pedidos, realizando varias consideraciones:
+El usuario debe haberse conectado (punto 1), sino este botón podría aparecer deshabilitado u oculto.
+Solo se pueden agregar productos de la misma ubicación.
+Se debe agregar la cantidad de productos al momento de sumar al carrito, siempre que la cantidad no supere la disponibilidad.
+Al agregar al carrito, se reserva la cantidad de productos, es decir, debe descontarse del catálogo de manera preventiva.
+Manipular el carrito. En este punto, debe ser posible mostrar el carrito sin cambiar de página (ya sea con secciones que se expandan, modales, o siempre visible a la derecha del catálogo) y que permita realizar las acciones de editar la cantidad de productos (considerando las mismas limitaciones indicadas anteriormente) y eliminar productos del carrito. Es importante considerar que esto último provoca la "devolución" de las reservas realizadas a la disponibilidad en el catálogo.
+Toda la información que se entrega (catalogo.js e imágenes de los productos iniciales) serán entregadas a través del repositorio GitHub del profe >> AQUI <<.
+Condiciones de Entrega 
+Para la confección de esta evaluación, usted debe realizar las siguientes actividades: 
+
+Descargar Catálogo de Productos: descargar el catálogo de productos y las imágenes que se han indicado en el enunciado. Esta información podría variar en los próximos días, pero también puede modificarlo a gusto si así lo prefiere.
+Crear el Estilo: crear (o reutilizar) un CSS apropiado y que sea acorde al utilizado en la evaluación sumativa 2. Recuerde que es parte de la evaluación la consistencia de las imágenes, colores y tipografías utilizadas.
+Crear la Estructura del Documento HTML: confeccione la estructura del documento, considerando los contenedores indicados en el enunciado (login, catálogo y carrito) además de los elementos propios de una web (título y pie de página al menos).
+Crear los Scripts Solicitados: elaborar todos los scripts que sean necesarios para cumplir con las funcionalidades de este enunciado. Como recomendación, puede separar en archivos js diferentes las funciones que correspondan a elementos distintos (login, catalogo y carrito).
+Revisar la Rúbrica de Evaluación: antes de entregar, se recomienda revisar la rúbrica de evaluación para que cumpla con todos los criterios esperados en su entrega. 
+Para la entrega, usted deberá subir su proyecto a su repositorio del curso, dentro de la carpeta “evaluaciones” bajo una carpeta “sumativa3” y con la estructura de carpetas que hemos visto en clase. Además, debe publicar la información de su repositorio en el AAI indicando nombre de usuario GitHub y número de commit. 
+
+FECHA DE ENTREGA: 6 de junio de 2024, 23:59 horas (Extensión: 10 de junio de 2024, 18:30 horas)
